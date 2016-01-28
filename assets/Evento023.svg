@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200px" height="301px" viewBox="0 0 1200 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Evento003</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Evento003" sketch:type="MSLayerGroup">
+            <g id="Group">
+                <g id="Sfondo" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-path" fill="#22B573" x="0" y="0.5" width="1200" height="300"></rect>
+                    <path d="M1197.041,2.147 L1144.532,142.425 L1145.15,142.665 L1197.666,2.383 L1200,300.5 L683.453,301 L513.962,1" id="Shape" opacity="0.05" fill="#000000"></path>
+                </g>
+                <g id="Content" transform="translate(0.000000, 1.000000)"></g>
+                <g id="Reticolo" transform="translate(147.500000, 152.000000) scale(-1, 1) translate(-147.500000, -152.000000) translate(0.000000, 3.000000)" sketch:type="MSShapeGroup">
+                    <path d="M227.846,140.542 L186.136429,132.023162 L144.768,123.574 L156.705,155.332 L227.846,140.542 Z" id="Shape"></path>
+                    <path d="M87.673,236.151 L41.097,176.832 L74.893,264.775 L87.673,236.151 Z" id="Shape"></path>
+                    <path d="M41.044,176.82 L87.673,236.151 L183.991,232.581 L41.044,176.82 Z" id="Shape"></path>
+                    <path d="M144.768,123.574 L280.354,0.263 L227.846,140.542 L144.768,123.574 Z" id="Shape"></path>
+                    <path d="M294.955,203.704 L257.913,224.818 L257.582,224.239 L294.955,202.923 L294.955,203.704 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M257.548,224.795 L207.01,187.426 L207.41,186.883 L257.948,224.258" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M294.955,197.383 L294.955,198.059 L207.171,187.495 L207.25,186.827 L294.955,197.383 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M294.955,138.712 L207.377,187.445 L207.047,186.867 L294.955,137.958 L294.955,138.712 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M294.955,133.42 L227.881,140.875 L227.81,140.207 L294.955,132.752 L294.955,133.42 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M206.938,187.023 L227.532,140.41 L228.15,140.679 L207.549,187.295" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M294.955,236.337 L294.955,237.047 L257.643,224.848 L257.852,224.208 L294.955,236.337 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M257.788,224.86 L184.022,232.921 L183.96,232.25 L257.713,224.201" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M207.506,187.308 L184.292,232.731 L183.697,232.435 L206.909,187.009" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M207.031,187.441 L156.529,155.614 L156.886,155.049 L207.389,186.871" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M227.91,140.873 L156.776,155.662 L156.64,155.001 L227.772,140.211" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M156.392,155.455 L144.452,123.694 L145.077,123.457 L157.017,155.215" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M227.772,140.873 L144.706,123.904 L144.841,123.247 L227.91,140.211" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M294.955,71.444 L228.085,140.773 L227.606,140.309 L294.955,70.48 L294.955,71.444 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M183.785,232.847 L114.854,178.997 L115.269,178.471 L184.197,232.321" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M114.9,178.44 L156.545,155.036 L156.872,155.622 L115.225,179.022" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M145.067,123.734 L115.355,178.9 L114.767,178.575 L144.471,123.415" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M183.872,232.895 L40.926,177.13 L41.168,176.511 L184.113,232.273" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M144.924,123.876 L41.249,177.13 L40.943,176.533 L144.615,123.276" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M115.072,178.395 L115.05,179.062 L41.088,177.162 L41.104,176.493 L115.072,178.395 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M184.088,232.906 L74.986,265.1 L74.802,264.46 L183.896,232.26" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M41.357,176.698 L75.206,264.659 L74.58,264.902 L40.735,176.936" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M41.365,176.926 L0.8,297.783 L0.168,297.568 L40.729,176.715" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M75.031,265.087 L0.618,297.983 L0.35,297.365 L74.762,264.479" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M184.01,232.925 L87.683,236.493 L87.653,235.824 L183.98,232.25" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M87.979,236.286 L75.202,264.918 L74.594,264.649 L87.363,236.017" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M41.307,176.614 L87.935,235.948 L87.403,236.362 L40.782,177.021" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M184.197,232.321 L266.702,296.787 L266.293,297.312 L183.785,232.847" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M258.079,224.492 L266.833,297.01 L266.162,297.093 L257.415,224.57" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M144.542,123.334 L280.129,0.016 L280.575,0.511 L144.993,123.821" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M75.097,264.515 L119.216,296.966 L118.823,297.503 L74.696,265.052" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

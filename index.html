@@ -1,17 +1,33 @@
 ---
 layout: default
+title: "Google Developer Group"
+sub-title: "Milano"
+image: assets/DevFestLomb2013-46.jpg
+image-position: center
 ---
-<!-- Posts -->
-<ul id="posts">
-
-	{% for post in paginator.posts %}
-
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
-	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
-
-    {% endfor %}
-
-</ul>
+<div id="main" class="page">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 content">
+        <ul>
+        {% for post in site.categories["eventi"] %}
+          <li class="event">
+            <div class="event-title">
+              <h2><a href="{{ post.url }}">{{ post.title }}</a><span class="target target-{{ post.target }}">{{ post.target }}</span><span class="level level-{{ post.level }}">{{ post.level }}</span></h2>
+              <span class="event-detail">{{ post.sub-title }}</span>
+            </div>
+            <div class="list-detail">
+              <span class="event-detail"><b>Quando: </b>{{ post.when }}</span>
+              <span class="event-detail"><b>Dove: </b>{{ post.where }}</span>
+              <span class="event-detail"><b>Tag: </b>{{ post.tags | array_to_sentence_string }}</span>
+            </div>
+            <div class="excerpt">
+              {{ post.excerpt }}
+            </div>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

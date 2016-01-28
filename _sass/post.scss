@@ -1,0 +1,16 @@
+//Post Style
+.post {
+	margin: 20px 0;
+}
+
+.post-meta {
+	margin-bottom: 20px;
+	display: block;
+	position: relative;
+	font-size: 0.85em;
+	span {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}

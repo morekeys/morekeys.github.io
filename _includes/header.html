@@ -1,6 +1,45 @@
-<header id="header">
-	<a href="{{ site.baseurl }}">
-		<img src="{{ "img/emerald.svg" | prepend: site.baseurl }}" alt="Emerald Logo">
-	  <h1>emerald</h1>
-	</a>
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+		<!-- Brand & toggle -->
+    <div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"></a>
+    </div>
+
+		<!-- Navigation -->
+		<div id="nav" class="collapse navbar-collapse">
+		  <ul class="nav navbar-nav navbar-right">
+				<li><a href="/chi-siamo">Chi siamo</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="#contatti">Contatti</a></li>
+			</ul>
+		</div>
+  </div>
+</nav>
+
+<!-- Main content -->
+{% if page.image %}
+  <header class="page-top" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url('{{ site.baseurl }}/{{ page.image }}') no-repeat {{ page.image-position }}">
+{% elsif page.image == null %}
+  <header class="page-top" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), #40ACE3">
+{% endif %}
+  <div class="container header-intro">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header-title">
+          <h1>{{ page.title }}</h1>
+          <span>{{ page.sub-title }}</span>
+          <span><b>{% if page.when %}{{ page.when }}{% endif %}</b></span>
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>

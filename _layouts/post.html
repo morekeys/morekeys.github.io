@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
-<article id="post-page">
-	<h2>{{ page.title }}</h2>		
-	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
-	<div class="content">
+<div class="post">
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-8 col-md-offset-2">
+          <article class="post-content">
+            <span class="post-meta">Postato da: {{ page.author }}<span class="post-date">{{ page.date | date_to_string }}</span></span>
+            
+            {{ content }}
 
-		{{ content }}
-		
-	</div>
-</article>
-
+          </article>
+  		</div>
+  	</div>
+  </div>
+</div>

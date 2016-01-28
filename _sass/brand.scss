@@ -1,0 +1,43 @@
+//Brand Color
+$first: #DD372A; // Red 
+$second: #5F8ACC; // Blue 
+$third: #0B9849; // Green 
+$fourth: #F9C828; // Yellow 
+$fifth: #40ACE3; // Azure 
+$grey: #DDDDDD;
+$light: #FFFFFF;
+$dark: #000000;
+
+//Dark Variant Color
+$first-dark: darken($first, 10%);
+$second-dark: darken($second, 10%);
+$third-dark: darken($third, 10%);
+$fourth-dark: darken($fourth, 10%);
+$fifth-dark: darken($fifth, 10%);
+$grey-dark: darken($grey, 10%);
+
+//Darkest Variant Color
+$first-darkest: darken($first, 20%);
+$second-darkest: darken($second, 20%);
+$third-darkest: darken($third, 20%);
+$fourth-darkest: darken($fourth, 20%);
+$fifth-darkest: darken($fifth, 20%);
+$grey-darkest: darken($grey, 20%);
+
+//Light Variant Color
+$first-light: lighten($first, 20%);
+$second-light: lighten($second, 20%);
+$third-light: lighten($third, 20%);
+$fourth-light: lighten($fourth, 20%);
+$fifth-light: lighten($fifth, 20%);
+$grey-light: lighten($grey, 20%);
+
+// Font Rules
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
