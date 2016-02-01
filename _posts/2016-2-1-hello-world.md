@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hello world
+title: Hello world
 date: 2016-2-1
 categories: blog
 tags: 
