@@ -1,27 +1,27 @@
 # Site settings
-title: 读立写生
+title: MOREKEY
 header-img: "img/facebook.jpg"
-tagline: "cn"  
-description: "陈素封|读而立·写而生"  
+tagline: "MK"  
+description: "潘迪凹|自说自话"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://morekey"  
 
 # About/contact
 owner: 
-  name: " CnFeat"
-  email: CnFeat@gmail.com
-  bio: "写就是写的报酬"
+  name: " morekey"
+  email: panmaike@hotmail.com
+  bio: ""
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
+gavatar: 
 favicon: img/favicon.png
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
+douban_username:  潘迪凹
+twitter_username: 潘第安
+github_username: morekeys
 facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: feat
+weibo_username: 潘迪凹
+zhihu_username: 潘迪凹
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -31,10 +31,10 @@ highlighter: pygments
 permalink: pretty
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-relative_permalinks: true
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/WenZhou
 
 # Defaults for posts
 defaults:
@@ -44,16 +44,16 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CnFeat"
+      author: "潘迪凹"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : cnfeat
+    short_name : pandiao
   disqus :
-      short_name : cnfeat
+      short_name : pandiao
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
@@ -62,3 +62,7 @@ google_verify:
 bing_verify:
 
 # Links to include in footer navigation
+#Gems
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
