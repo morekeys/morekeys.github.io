@@ -3,8 +3,8 @@ layout: post
 title: 关于名字
 date: 2016-2-3
 categories: blog
-tags:[作者]
-description: 也是有趣啊
+tags: [作者]
+description:
 ---
 
 
